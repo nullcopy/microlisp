@@ -59,3 +59,7 @@ env.parse_eval("(dotimes [i 5] (def sum (+ sum i)))")?;
 let result = env.parse_eval("(+ sum 0)")?; // Note: direct variable access needs expression context
 println!("(dotimes [i 5] (def sum (+ sum i))) = {}", result);
 ```
+
+## License
+
+This project is licensed under the [GNU Affero General Public License v3.0 or later](LICENSE) (`AGPL-3.0-or-later`).
